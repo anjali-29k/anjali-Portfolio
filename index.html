@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koppisetti Anjali | Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f5fc;
+    color: #222;
+}
+
+header {
+    background: #171735;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+nav {
+    background: #292957;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #a99cff;
+}
+
+section {
+    padding: 40px 10%;
+}
+
+h2 {
+    color: #5144a5;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #5144a5;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.home {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #292957, #7564ce);
+    color: white;
+}
+
+.home h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.home p {
+    font-size: 18px;
+}
+
+button {
+    background: #7564ce;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5144a5;
+}
+
+.card {
+    background: white;
+    padding: 22px;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #292957;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 25px;
+    line-height: 2;
+}
+
+.profile-links a {
+    display: inline-block;
+    background: #292957;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    margin: 7px;
+    border-radius: 5px;
+}
+
+.profile-links a:hover {
+    background: #7564ce;
+}
+
+.contact a {
+    color: #5144a5;
+    text-decoration: none;
+}
+
+footer {
+    background: #171735;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media(max-width:600px) {
+    nav a {
+        display: inline-block;
+        margin: 7px;
+        font-size: 14px;
+    }
+
+    .home h1 {
+        font-size: 30px;
+    }
+
+    section {
+        padding: 30px 6%;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>KOPPISETTI ANJALI</h1>
+    <p>Computer Science Student | Aspiring Developer</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#profiles">Profiles</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="home" id="home">
+    <h1>Hello, I'm Anjali!</h1>
+    <p>Welcome to my Personal Portfolio Website</p>
+    <p>Learning | Coding | Growing</p>
+    <button onclick="location.href='#about'">Explore My Portfolio</button>
+</div>
+
+<section id="about">
+    <h2>Career Objective</h2>
+    <div class="card">
+        <p>
+        To begin my career in a growth-oriented organization where I can
+        apply my computer science knowledge, improve my technical and
+        problem-solving skills, learn new technologies, and contribute
+        positively to the organization.
+        </p>
+    </div>
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="card">
+        <h3>Degree</h3>
+        <p>Bachelor of Computer Science (B.Sc. Honours)</p>
+        <p>Sri Aditya Degree College, Bhimavaram</p>
+        <p>CPA: 80%</p>
+    </div>
+
+    <div class="card">
+        <h3>Intermediate</h3>
+        <p>MPC</p>
+        <p>Sri Chaitanya Junior College, Bhimavaram</p>
+        <p>Percentage: 70%</p>
+    </div>
+
+    <div class="card">
+        <h3>SSC (10th)</h3>
+        <p>Don Bosco EM High School, Bhimavaram</p>
+        <p>Percentage: 65%</p>
+    </div>
+</section>
+
+<section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="card">
+        <ul>
+            <li>Python Programming</li>
+            <li>C Programming</li>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>MySQL</li>
+            <li>Microsoft Excel</li>
+            <li>Problem Solving</li>
+        </ul>
+    </div>
+</section>
+
+<section id="certifications">
+    <h2>Certifications</h2>
+    <div class="card">
+        <ul>
+            <li>IBM Certification</li>
+            <li>Hackathon Participation Certificate</li>
+            <li>Advanced Excel Expert</li>
+            <li>HackerRank Certification</li>
+        </ul>
+    </div>
+</section>
+
+<section id="profiles">
+    <h2>My Profiles</h2>
+
+    <div class="card profile-links">
+        <a href="https://www.linkedin.com/in/koppisetti-anjali-1944b9341/" target="_blank">LinkedIn</a>
+
+        <a href="https://github.com/anjali-29k" target="_blank">GitHub</a>
+
+        <a href="https://leetcode.com/u/anjalik29/" target="_blank">LeetCode</a>
+
+        <a href="https://www.codechef.com/users/scarlet_anju" target="_blank">CodeChef</a>
+
+        <a href="https://codeforces.com/profile/anjali_koppisetti" target="_blank">Codeforces</a>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="card contact">
+        <p><b>Name:</b> Koppisetti Anjali</p>
+        <p><b>Mobile:</b> <a href="tel:9110797659">9110797659</a></p>
+        <p><b>Email:</b>
+        <a href="mailto:anjalikoppisetti2k6@gmail.com">
+        anjalikoppisetti2k6@gmail.com</a></p>
+        <p><b>Location:</b> Bhimavaram</p>
+    </div>
+</section>
+
+<section id="declaration">
+    <h2>Declaration</h2>
+    <div class="card">
+        <p>
+        I hereby declare that the information provided above is true
+        and correct to the best of my knowledge.
+        </p>
+        <br>
+        <b>Koppisetti Anjali</b>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Koppisetti Anjali | Personal Portfolio</p>
+    <p>Thank You for Visiting My Website!</p>
+</footer>
+
+<script>
+alert("Welcome to Anjali's Portfolio Website!");
+</script>
+
+</body>
+</html>
